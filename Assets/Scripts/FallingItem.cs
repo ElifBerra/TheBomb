@@ -35,24 +35,19 @@ public class FallingItem : MonoBehaviour
         }
     }
 
-    // Fiziksel bir temas (Tetiklenme) olduðunda çalýþýr.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            // YENÝ MANTIK: Eþya bomba mý diye kontrol et
             if (data.isBomb)
             {
-                // Evet, bombaymýþ! Bomba olayýný tetikle.
                 GameEvents.OnBombCaught?.Invoke();
             }
             else
             {
-                // Hayýr, puan veren bir eþyaymýþ. Puan olayýný tetikle.
                 GameEvents.OnScoreItemCaught?.Invoke(data.scoreValue);
             }
 
-            // Her iki durumda da objeyi yok et.
             Destroy(gameObject);
         }
     }

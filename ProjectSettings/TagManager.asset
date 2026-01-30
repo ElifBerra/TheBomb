@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - 1
+  - 2
+  - 3
   - 
   - 
   - 
@@ -41,3 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: player
+    uniqueID: 3104558835
+    locked: 0
+  - name: "\u0131tems"
+    uniqueID: 4049894459
+    locked: 0
+  - name: "\u0131mage"
+    uniqueID: 3263799999
+    locked: 0
+  m_RenderingLayers:
+  - Default

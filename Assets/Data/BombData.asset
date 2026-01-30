@@ -16,5 +16,5 @@ MonoBehaviour:
   fallSpeed: 7
   scoreValue: -20
   isBomb: 1
-  itemSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  itemColor: {r: 0, g: 0, b: 0, a: 1}
+  itemSprite: {fileID: -2613247888821195678, guid: 4748e3f57c801b5439cc71d0b973cab3, type: 3}
+  itemColor: {r: 1, g: 1, b: 1, a: 1}

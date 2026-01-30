@@ -1,4 +1,5 @@
 using System;
+using UnityEngine.Events;
 
 public static class GameEvents
 {
@@ -8,4 +9,6 @@ public static class GameEvents
 
     // Bomba yakalandýðýnda tetiklenecek, veri taþýmasýna gerek olmayan "sade" bir olay
     public static Action OnBombCaught;
+
+    //public UnityEvent<int> addScore;
 }

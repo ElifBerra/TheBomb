@@ -10,7 +10,6 @@ public class ItemSpawner : MonoBehaviour
 
     void Start()
     {
-        // Belirlenen aralýklarla "SpawnItem" fonksiyonunu çaðýrýr
         InvokeRepeating("SpawnItem", 0f, spawnInterval);
     }
 
