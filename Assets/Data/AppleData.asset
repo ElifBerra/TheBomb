@@ -15,5 +15,6 @@ MonoBehaviour:
   itemName: Apple
   fallSpeed: 4
   scoreValue: 10
-  itemSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  isBomb: 0
+  itemSprite: {fileID: -3659329884117570177, guid: fa75534672674db43be6b9e4aec15ab7, type: 3}
   itemColor: {r: 1, g: 0, b: 0, a: 1}

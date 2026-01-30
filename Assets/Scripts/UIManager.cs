@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
     [Header("Game Settings")]
     private int currentScore = 0;
     private int caughtBombs = 0;      // Yakalanan bomba sayýsý
-    private const int MAX_BOMBS = 3;  // Oyunun biteceði sýnýr
+    public  int MAX_BOMBS = 3;  // Oyunun biteceði sýnýr
 
     // Script açýldýðýnda olaylarý dinlemeye baþla
     private void OnEnable()
